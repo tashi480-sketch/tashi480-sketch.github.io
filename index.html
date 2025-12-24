@@ -2,12 +2,15 @@
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>のんふぃく！海まりん FC選考 申し込みページ</title>
+
   <style>
     body {
       font-family: "Hiragino Sans", "Noto Sans JP", sans-serif;
       background: #f7f9fc;
-      padding: 40px;
+      padding: 20px;
+      margin: 0;
       text-align: center;
       color: #333;
     }
@@ -16,27 +19,30 @@
       max-width: 480px;
       margin: 0 auto;
       background: #ffffff;
-      padding: 30px 25px;
+      padding: 25px 20px;
       border-radius: 12px;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
     h1 {
-      font-size: 1.6rem;
-      margin-bottom: 10px;
+      font-size: 1.4rem;
+      margin-bottom: 12px;
       color: #0077cc;
+      line-height: 1.4;
     }
 
     p {
+      font-size: 1rem;
       line-height: 1.7;
       margin-bottom: 25px;
     }
 
     .submit-btn {
+      width: 100%;
       background: #ff6fb0;
       color: white;
       border: none;
-      padding: 14px 28px;
+      padding: 16px 0;
       font-size: 1.1rem;
       border-radius: 8px;
       cursor: pointer;
@@ -46,12 +52,25 @@
     .submit-btn:hover {
       background: #ff4f9d;
     }
+
+    @media (min-width: 600px) {
+      h1 {
+        font-size: 1.6rem;
+      }
+      p {
+        font-size: 1.05rem;
+      }
+      .submit-btn {
+        font-size: 1.15rem;
+      }
+    }
   </style>
 </head>
 
 <body>
   <div class="container">
-    <h1>のんふぃく！海まりん FC選考</h1>
+    <h1>のんふぃく！海まりん<br>FC選考 申し込みページ</h1>
+
     <p>
       こちらは<br>
       <strong>海まりんさん FC選考（2026バースデーイベント）</strong><br>
